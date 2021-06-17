@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.commons.cli.ParseException;
 import java.lang.Exception;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import fileWalker.OrderedWalker;
 import fileWalker.SourceFileWalker;
@@ -37,7 +38,7 @@ public class ParserMain
             // System.out.println("Exception occurred");
             //Files.write(Paths.get("/home/liux19/yizhidou/Dataset/MVDDataset/orignal_data/record_collections/joern_extraction_error_record.txt"), fileAndDirNames.getBytes(), StandardOpenOption.APPEND);
 		// }
-		
+
 	}
 
 	private static void parseCommandLine(String[] args)
@@ -87,13 +88,16 @@ public class ParserMain
 		try
 		{
 			sourceFileWalker.walk(fileAndDirNames);
-		} catch (IOException err)
+		} catch (Exception err)  //IOException
 		{
 			System.err
 					.println("Error walking source files: " + err.getMessage());
-		} finally
-		{
-			parser.shutdown();
 		}
+		//finally
+		//{
+		    //System.err
+					//.println("Error walking source files: " + err.getMessage());
+			//parser.shutdown();
+		//}
 	}
 }
