@@ -29,11 +29,11 @@ public abstract class SourceFileWalker
 
 	public void walk(String[] fileAndDirNames) throws IOException
 	{
-		System.out.println("now let us see what is in fileAndDirNames");
-		for (String filename : fileAndDirNames){
-			System.out.println(filename);
-		}
-		System.exit(666);
+		// System.out.println("now let us see what is in fileAndDirNames");
+		// for (String filename : fileAndDirNames){
+		// 	System.out.println(filename);
+		// }
+		// System.exit(666);
 		for (String filename : fileAndDirNames)
 		{
 
