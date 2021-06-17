@@ -7,6 +7,10 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+
 public class OrderedWalker extends SourceFileWalker
 {
 	FileNameMatcher matcher = new FileNameMatcher();
@@ -67,6 +71,12 @@ public class OrderedWalker extends SourceFileWalker
 					System.out.println("errored filename="+filePath);
 					System.out.println("stacktrace in OrderedWalker:");
 					err.printStackTrace();
+
+					try{
+						Files.write(Paths.get("/home/liux19/yizhidou/Dataset/MVDDataset/orignal_data/record_collections/joern_extraction_error_record.txt"), absolutePath.getBytes(), StandardOpenOption.APPEND);
+					}catch(IOException ioerr){
+						ioerr.printStackTrace();
+					}		
 					continue;
 				}
 				
