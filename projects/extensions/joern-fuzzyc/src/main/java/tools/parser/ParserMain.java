@@ -37,6 +37,7 @@ public class ParserMain
             // System.out.println("Exception occurred");
             //Files.write(Paths.get("/home/liux19/yizhidou/Dataset/MVDDataset/orignal_data/record_collections/joern_extraction_error_record.txt"), fileAndDirNames.getBytes(), StandardOpenOption.APPEND);
 		// }
+		
 	}
 
 	private static void parseCommandLine(String[] args)
