@@ -3,6 +3,10 @@ package fileWalker;
 import java.io.File;
 import java.io.IOException;
 
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+
 public abstract class SourceFileWalker
 {
 	protected final String DEFAULT_FILENAME_FILTER = "*.{c,cpp,h,cc,hpp,java}";
@@ -34,7 +38,17 @@ public abstract class SourceFileWalker
 						+ " because it is not accessible");
 				continue;
 			}
-			walkExistingFileOrDirectory(filename);
+			try 
+			{
+				walkExistingFileOrDirectory(filename);
+			}
+			catch (Exception err)
+			{	
+				//log_str = filename; // + " : "  + err.getMessage();
+				Files.write(Paths.get("/home/liux19/yizhidou/Dataset/MVDDataset/orignal_data/record_collections/joern_extraction_error_record.txt"), filename.getBytes(), StandardOpenOption.APPEND);
+				continue;
+			}
+			
 		}
 	}
 
