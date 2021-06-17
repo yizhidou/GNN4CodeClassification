@@ -40,13 +40,14 @@ public abstract class SourceFileWalker
 			}
 			try 
 			{
+				System.out.println(filename + " is going to on walk");
 				walkExistingFileOrDirectory(filename);
 			}
 			catch (Exception err)
 			{	
 				//log_str = filename; // + " : "  + err.getMessage();
 				// Files.write(Paths.get("/home/liux19/yizhidou/Dataset/MVDDataset/orignal_data/record_collections/joern_extraction_error_record.txt"), filename.getBytes(), StandardOpenOption.APPEND);
-				System.out.println(filename);
+				System.out.println("filename="+filename);
 				System.out.println("lalalalala");
 				err.printStackTrace();
 				continue;
