@@ -92,6 +92,7 @@ public class ParserMain
 		{
 			System.err
 					.println("Error walking source files: " + err.getMessage());
+			err.printStackTrace();
 		}
 		//finally
 		//{
