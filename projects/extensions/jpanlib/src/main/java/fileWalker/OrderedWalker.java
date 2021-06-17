@@ -61,7 +61,15 @@ public class OrderedWalker extends SourceFileWalker
 			}
 
 			if (matcher.fileMatches(filePath))
-				reportFile(filePath);
+				try{
+					reportFile(filePath);
+				}catch(Exception err){
+					System.out.println("errored filename="+filePath);
+					System.out.println("stacktrace in OrderedWalker:");
+					err.printStackTrace();
+					continue;
+				}
+				
 		}
 
 		reportDirectoryLeave(path);

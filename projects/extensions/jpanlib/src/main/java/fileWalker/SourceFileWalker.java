@@ -29,6 +29,11 @@ public abstract class SourceFileWalker
 
 	public void walk(String[] fileAndDirNames) throws IOException
 	{
+		System.out.println("now let us see what is in fileAndDirNames");
+		for (String filename : fileAndDirNames){
+			System.out.println(filename);
+		}
+		System.exit(666);
 		for (String filename : fileAndDirNames)
 		{
 
@@ -47,10 +52,10 @@ public abstract class SourceFileWalker
 			{	
 				//log_str = filename; // + " : "  + err.getMessage();
 				// Files.write(Paths.get("/home/liux19/yizhidou/Dataset/MVDDataset/orignal_data/record_collections/joern_extraction_error_record.txt"), filename.getBytes(), StandardOpenOption.APPEND);
-				System.out.println("filename="+filename);
-				System.out.println("lalalalala");
+				// System.out.println("filename="+filename);
+				System.out.println("stacktrace in SourceFileWalker:");
 				err.printStackTrace();
-				continue;
+				// continue;
 			}
 			
 		}
