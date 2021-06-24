@@ -74,7 +74,7 @@ public class OrderedWalker extends SourceFileWalker
 
 					try{
 						String record_path = absolutePath + "\n";
-						Files.write(Paths.get("/home/liux19/yizhidou/Dataset/MVDDataset/orignal_data/record_collections/joern_extraction_error_record.txt"), record_path.getBytes(), StandardOpenOption.APPEND);
+						Files.write(Paths.get("/home/liux19/yizhidou/Dataset/record_collections/joern_extraction_error_record.txt"), record_path.getBytes(), StandardOpenOption.APPEND);
 					}catch(IOException ioerr){
 						ioerr.printStackTrace();
 					}		
