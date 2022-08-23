@@ -100,18 +100,18 @@ def build_model(config):
 def build_yzd_datasets(config):
     config = copy.deepcopy(config)
 
-    train_sample_hash_list = []
-    vali_sample_hash_list = []
+    train_sample_fn_list = []
+    vali_sample_fn_list = []
     training_set = YZDDataset(nm_dir=config['dataset_params']['nm_dir'],
                               am_dir=config['dataset_params']['am_dir'],
-                              sample_hash_list=train_sample_hash_list,
+                              sample_fn_list=train_sample_fn_list,
                               num_epoch=config['training_settings']['num_epoch'],
                               inital_edge_feature_dim=config['dataset_params']['inital_edge_feature_dim'],
                               step_per_epoch=config['training_settings']['step_per_train_epoch'],
                               max_num_node_of_one_graph=config['dataset_params']['max_num_node_of_one_graph'])
     validation_set = YZDDataset(nm_dir=config['dataset_params']['nm_dir'],
                                 am_dir=config['dataset_params']['am_dir'],
-                                sample_hash_list=vali_sample_hash_list,
+                                sample_fn_list=vali_sample_fn_list,
                                 num_epoch=config['training_settings']['num_epoch'],
                                 inital_edge_feature_dim=config['dataset_params']['inital_edge_feature_dim'],
                                 step_per_epoch=config['training_settings']['step_per_vali_epoch'],
