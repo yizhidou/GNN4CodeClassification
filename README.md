@@ -17,7 +17,7 @@
 
 ### Raw Code to CPG
 
-- We use the open source tool Joern (https://joern.io/). The exact version we use is included in `./joern`
+- We use the open source tool Joern (https://joern.io/). 
 
 ### Data Initialization
 
