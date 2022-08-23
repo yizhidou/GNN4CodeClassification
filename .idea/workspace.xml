@@ -1,134 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aac756c-b86a-478a-90d0-f46b67d23589" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5aac756c-b86a-478a-90d0-f46b67d23589" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Algorithms/BitOperation/basic_bit_operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/DataStructure/binary_index_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/DataStructure/heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/DataStructure/segment_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/DivideAndConquer/majority_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/DynamnicPrograming/city_travel_with_k_tickets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/ForTestCode/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Graph/city_travel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Graph/dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Graph/traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Search/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Search/coin_combination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Search/dfs_backtracking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Search/parentheses_related.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Search/permuation_related.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Sorting/heap_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Sorting/merge_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Sorting/quiksort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Tree/tree_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Tree/tree_height.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/Tree/tree_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/TwoPointers/trap_train_water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/UsefulAlgorithms/BoyerMoore_vote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/UsefulAlgorithms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/deep_shallow_copy/param_transformation_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/unclassified/leetcode_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BLSTM_model/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BLSTM_model/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BLSTM_model/training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BLSTM_model/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BabyModel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BrilCompiler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BrilCompiler/cfg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BrilCompiler/test_examples/call.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorW2V/cfile_to_dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorW2V/code_backup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorW2V/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorW2V/var_func_name_substitute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorW2V/w2v_training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/c_file_extract_to_dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/devign_dataset_processer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/juliet_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/mvd_dataset_processer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/new_sard_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/reveal_dataset_processer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/sysevr_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/temporary_tookit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeGraphExtractorYZD/xml_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExperimentPlots/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExperimentPlots/get_mean_acc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExperimentPlots/training_log_plotting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExperimentPlots/tsne_visulaize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GNN_Baseline-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GNN_Baseline-master/Extensions/Code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GNN_Baseline-master/ast_dump.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GNN_Baseline-master/yzd_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphEmbeddingVisualization/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/DynamicProgramming/biggest_continuous_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/DynamicProgramming/edit_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/DynamicProgramming/largest_rectangle_histogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/DynamicProgramming/longest_common_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/DynamicProgramming/longest_contiguous_common_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/OddEvenLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/binary_to_integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/flatten_multilevel_linklist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/linklist_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/linklist_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/merge_2_sorted_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/merge_k_sorted_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/next_greater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/remove_duplicates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/reorder_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/reverse_a_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/reverse_nodes_in_k_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/rotate_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/sortlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/swap_pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/LinkList/zero_sum_seq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/check_if_straight_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/climbing_stairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/contiguous_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/count_square_matrix_with_all_ones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/cousins_in_bt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/find_all_anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/find_town_judge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/first_bad_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/first_unique_char.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/implement_trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/interval_list_intersections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/jewels_and stones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/maximum_sum_circular_subarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/number_complement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/odd_even_link_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/online_stock_span.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/permutation_in_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/ransom_note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/remove_k_digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/sort_char_by_freq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/uncrossed_lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MayCodeChallenge/valid_perfect_square_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/MultiProcessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/Tree/construct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/Tree/construct_bst_from_pre_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/Tree/invert_bt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/Tree/kth_smallest_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/Tree/maximum_depth_of_bt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/Tree/traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/Tree/tree_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/binary_search/basic_bs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/graph/course_schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/graph/graph_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/graph/possible_bipartition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeCpp/MyString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeCpp/MyString.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCodeCpp/blankspace_replace.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenAiEmbedding/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenAiEmbedding/get_nearset_samples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenAiEmbedding/openai_embedding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_new/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_new/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_new/model_componets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_new/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_new/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_new/tempt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_new/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/.idea/gogoyizhidou_sparse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/.idea/remote-mappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/auxiliary_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/gnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/pre_train_procession.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gogoyizhidou_sparse/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/check_node_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/colecting_samples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/debug.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/dump_to_opcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/erro_log_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/file_rename.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/leetcode_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/nm_sanitation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/process_pre_train_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/process_pre_train_data_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/sample_sanitation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/tokenlize_php_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/train_test_divide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temporary/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhidouCompilerPlayground/doudou_lexer.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/params_setting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#355#1149#0" />
-                <element signature="e#1241#2322#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/evaluation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphmatchingnetwork.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1818">
-              <caret line="153" column="16" lean-forward="true" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-                <element signature="e#770#1146#0" />
-                <element signature="e#1191#1712#0" />
-                <element signature="e#2442#3148#0" />
-                <element signature="e#5073#7323#0" />
-                <element signature="e#7373#9681#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphembeddingnetwork.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="817" column="17" selection-start-line="817" selection-start-column="13" selection-end-line="817" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/segment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,18 +243,6 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -262,6 +289,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/utils.py">
